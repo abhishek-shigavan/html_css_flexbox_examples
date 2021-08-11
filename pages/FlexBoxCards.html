@@ -1,0 +1,87 @@
+<!doctype html>
+<title>FlexBox Cards</title>
+<style>
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+</style>
+
+<main class="cards">
+  <article class="card">
+    <img src="../assests/c++.png" alt="C++ Programming Language">
+    <div class="text">
+      <h3>C++ By Bjarne Stroustrup</h3>
+      <p>C++ is a general-purpose programming language created by 
+         Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".</p>
+      <button>Lets Try</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assests/java.jpg" alt="Java Programming Language">
+    <div class="text">
+      <h3>Java By James Gosling</h3>
+      <p>Java is a high-level, class-based, object-oriented programming language 
+         that is designed to have as few implementation dependencies as possible.</p>
+      <button>Read More..</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assests/javascript.png" alt="JavaScript Programming Language">
+    <div class="text">
+      <h3>JavaScript By Oracle Corporation</h3>
+      <p>JavaScript, often abbreviated as JS, is a programming language that conforms 
+         to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, 
+         and multi-paradigm.</p>
+      <button>Know more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assests/html.png" alt="HTML Programming Language">
+    <div class="text">
+      <h3>HTML By  WHATWG</h3>
+      <p>The HyperText Markup Language, or HTML is the standard markup language for documents 
+         designed to be displayed in a web browser.</p>
+      <button>Lets do it...</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assests/python.png" alt="Python Programming Language">
+    <div class="text">
+      <h3>Python By Python Software Foundation</h3>
+      <p>Python is an interpreted high-level general-purpose programming language. Python's design 
+         philosophy emphasizes code readability with its notable use of significant indentation.</p>
+      <button>Explore</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assests/php.jpg" alt="Php Programming Language">
+    <div class="text">
+      <h3>Php By Rasmus Lerdorf</h3>
+      <p> PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.
+          It allows web developers to create dynamic content that interacts with databases.
+      </p>
+      <button>View More</button>
+    </div>
+  </article>
+</main>
